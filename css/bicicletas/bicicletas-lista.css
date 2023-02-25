@@ -17,9 +17,18 @@
   overflow-x: auto;
 }
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
+}
+
+#bicicleta .bicicletas-lista li {
+  flex: auto;
+  min-width: auto;
 }
 
 .bicicletas-lista a {
@@ -60,5 +69,14 @@
   }
   .bicicletas-lista ul {
     gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #bicicleta .bicicletas-lista h3 {
+    font-size: 20px;
+  }
+  #bicicleta .bicicletas-lista span {
+    font-size: 14px;
   }
 }
