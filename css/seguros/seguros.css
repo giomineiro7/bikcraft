@@ -19,7 +19,7 @@
   grid-column: 1/-1;
 }
 
-.seguros-item{
+.seguros-item {
   background-color: var(--cor-12);
   padding: 32px 32px 32px 60px;
   display: grid;
